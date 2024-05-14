@@ -1,0 +1,134 @@
+```html
+<!DOCTYPE html>
+<html lang=”en”>
+
+<head>
+    <meta charset=”UTF-8”>
+    <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+    <title>Painting Company</title>
+    <style>
+        Body {
+            Background-color: lightblue;
+            Margin: 0;
+            Padding: 0;
+            Font-family: Arial, sans-serif;
+        }
+
+        .container {
+            Max-width: 800px;
+            Margin: 20px auto;
+            Padding: 20px;
+            Background-color: #fff;
+            Border: 1px solid #ccc;
+            Border-radius: 10px;
+            Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        H1 {
+            Text-align: center;
+        }
+
+        Img {
+            Display: C:\Users\RICHES\Desktop\demmat logo;
+            Margin: 0 auto;
+            Max-width: 100%;
+            Height: auto;
+        }
+
+        Nav ul {
+            List-style-type: none;
+            Padding: 0;
+            Text-align: center;
+        }
+
+        Nav ul li {
+            Display: inline;
+            Margin: 0 10px;
+        }
+
+        Nav ul li a {
+            Text-decoration: none;
+            Color: #333;
+        }
+
+        Nav ul li a:hover {
+            Color: #007bff;
+        }
+
+        Form {
+            Margin-top: 20px;
+        }
+
+        Input[type=”text”],
+        Textarea {
+            Width: 100%;
+            Padding: 10px;
+            Margin-bottom: 10px;
+            Border-radius: 5px;
+            Border: 1px solid #ccc;
+        }
+
+        Input[type=”submit”] {
+            Background-color: lightblue;
+            Color: #fff;
+            Border: none;
+            Padding: 10px 20px;
+            Cursor: pointer;
+            Border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    < a href="/AboutUs.html" > AboutUs</a>
+    <a href="/contactUs.html"> contactUs </a>
+
+    <div class=”container”>
+        <h1>
+            <img src="/Desktop/demmat.jpg" alt="" width="50" height="30">
+            Welcome to Our Painting Company
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="/AboutUs.html">Home</a></li>
+                <li><a href="/AboutUs.html">About Us</a></li>
+                <li><a href=”/contactUs.html”>   Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id=”home”>
+            <h2>Home</h2>
+            <!—Home content here 
+        </section>
+        <section id=”about”>
+            <h2>About Us</h2>
+            <!—About Us content here 
+        </section>
+        <section id=”contact”>
+            <h2>Contact Us</h2>
+            <form id=”contactForm”>
+                <label for=”name”>Name:</label>
+                <input type=”text” id=”name” name=”name” required><br>
+                <label for=”email”>Email:</label>
+                <input type=”text” id=”email” name=”email” required><br>
+                <label for=”message”>Message:</label>
+                <textarea id=”message” name=”message” rows=”4” required></textarea><br>
+                <input type=”submit” value=”Submit”>
+            </form>
+        </section>
+    </div>
+
+    <script>
+        Document.getElementById(‘contactForm’).addEventListener(‘submit’, function (event) {
+            Event.preventDefault();
+            Var formData = new FormData(this);
+            // You can now access form data using formData object
+            Console.log(formData.get(‘name’));
+            Console.log(formData.get(‘email’));
+            Console.log(formData.get(‘message’));
+            // You can send this data to the server using fetch or XMLHttpRequest
+        });
+    </script>
+</body>
+
+</html>
+```
